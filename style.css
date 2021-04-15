@@ -1,0 +1,38 @@
+
+body{
+    font-family: cursive;
+    background: aliceblue;
+    color: #00bf8f;
+    text-align: center;
+    
+}
+td{
+  
+    width:100px;
+    height: 100px;
+   background: rgb(187, 186, 186);
+   font-size: 40px;
+   text-align: center;
+   border-radius: 25px ;
+}
+table{
+    margin: 20px auto;
+    border-radius: 10px;
+    color: white;
+}
+.animate__animated{
+    text-transform: uppercase;
+    font-size: 30px;
+    animation-duration: 2s; 
+    text-align: center;
+  background: -webkit-linear-gradient(
+    #00bf8f, #001510);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.animate__slideInRight{
+    animation-duration: 4s;  
+}
+.animate__zoomIn{
+    animation-duration: 5s;   
+}
